@@ -1,0 +1,32 @@
+{
+    "presets": [
+        "es2015",
+        "stage-0",
+        "react"
+    ],
+    "env": {
+        "development": {
+            "presets": []
+        },
+        "production": {
+            "presets": []
+        },
+        "test": {
+            "presets": []
+        }
+    },
+    "plugins": [
+        "react-hot-loader/babel",
+        "transform-decorators-legacy",
+        "syntax-dynamic-import",
+        [
+            "import",
+            {
+                "libraryName": "antd",
+                "libraryDirectory": "es",
+                "style": "css"
+            }
+        ]
+      
+    ]
+}
