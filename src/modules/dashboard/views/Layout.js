@@ -11,7 +11,6 @@ class LayoutView extends React.Component {
         }
     }
     onCollapse(collapsed) {
-        console.log(collapsed, "col")
         this.setState({ collapsed })
     }
     render() {
@@ -19,7 +18,7 @@ class LayoutView extends React.Component {
         return (
             <div>
                 <header>
-                    头部
+                    头部信息太卡了吧
                 </header>
                 <Layout>
                     <Sider

@@ -1,4 +1,4 @@
-import api from "../../utils/api"
+import api from "../../utils/api";
 export const INCREMENT = "counter/INCREMENT";
 export const DECREMENT = "counter/DECREMENT";
 export const RESET = "counter/RESET";
