@@ -33,7 +33,7 @@ const commonConfig = {
     performance: {
         hints: process.env.NODE_ENV === "production" ? "warning" : false
     },
-
+   
     plugins: [
         new CleanWebpackPlugin(["dist"]),
         new webpack.NamedModulesPlugin(), //添加，官方推荐的帮助分析依赖的插件

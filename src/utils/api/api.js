@@ -17,6 +17,7 @@ export default class Api {
         methods.forEach(method => {
             this[method] = (path, { params, data } = {}) => new Promise((resolve, reject) => {
                 const url = baseUrl + path;
+                console.log(url,"url")
                 return axios({
                     method,
                     url,
